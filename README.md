@@ -1,30 +1,20 @@
-# GitKraKen-Crack
-GitKraKen8.2.0-9.x的破解使用
+# GitKraken Crack
+Only works up to 9.9.1 ! Download via [UptoDown](https://gitkraken.en.uptodown.com/windows/download/109712959)
 
-## 破解要求环境
+## Requirements
 - Node.js Version>=12 LTS
 - yarn
 - GitKraKen v8.2.0-9.x
 
-## gitkraken下载地址
-[gitkraken](https://www.gitkraken.com/git-client/try-free)
+## How To
 
-## 破解步骤
-
-下载之后需要先运行安装下载的GitKraken（它会自动安装到AppData/Local/gitkraken9.x中）。安装完毕后将会自动打开gitkraken，此时直接将其关闭即可。
-### 2.从npm安装yarn
-- npm install --global yarn
-### 3.git clone https://github.com/qsshs/GitKraKen-Crack.git
-- cd GitKraKen-Crack
-- yarn install
-- yarn build
-- yarn gitcracken patcher
-
-
-## 后续
-### 屏蔽更新
-在C:\Windows\System32\drivers\etc下的hosts文件中最下面添加一行`127.0.0.1 release.gitkraken.com`即可。
-> 或者，直接在AppData/Local/gitkraken目录下，将update.exe删掉，也可禁止gitkraken自动更新。  
-
-### 从软件本体启动而不是update或安装包
-在AppData/Local/gitkraken/app-9.x/目录下的gitkraken.exe才是真正的客户端本体。  
+Just add a line at the bottom of the hosts file in C:\Windows\System32\drivers\etc 127.0.0.1 release.gitkraken.com
+Install Gitkraken 9.9.1
+Open a CMD with Admin
+run the following commands one after the other
+`npm install --global yarn`
+`git clone https://github.com/ElryGH/GitCracken.git`
+`cd GitCracken`
+`yarn install`
+`yarn build`
+`yarn gitcracken patcher`
