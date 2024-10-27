@@ -2,9 +2,9 @@
 Only works up to 9.9.1 ! Download via [UptoDown](https://gitkraken.en.uptodown.com/windows/download/109712959)
 
 ## Requirements
-- Node.js Version>=12 LTS
+- Node.js
 - yarn
-- GitKraKen v8.2.0-9.x
+- git cli
 
 ## How To
 
